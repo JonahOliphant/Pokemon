@@ -1,11 +1,16 @@
+@font-face {
+    font-family: 'futura_ltregular';
+    src: url('/utils/futuralt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'futura_ltregular';
 }
-    @font-face{
-      src: url('/utils/FuturaLT.ttf');
-      font-family: Arial, Helvetica, sans-serif;
-    }
+    
 
   .full-screen-video-container {
     background-attachment: fixed;
@@ -26,7 +31,9 @@
   button {
     font-size: 1.5rem;
     width: 300px;
-    height: 100px;
+    height: 75px;
+    border-radius: 20px;
+    margin-left: 2rem;
   }
 
   .bigtitle{
