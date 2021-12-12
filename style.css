@@ -1,7 +1,11 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Cinzel', serif;
+    font-family: 'Pokemon Solid', sans-serif;
+  }
+
+  title {
+    font-size: 1000rem;
   }
 
   button {
