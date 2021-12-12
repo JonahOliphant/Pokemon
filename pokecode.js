@@ -1,4 +1,4 @@
-import { removeChildren } from '../Pokemon/utilsPokemon/index.js'
+import { removeChildren } from '/utils/index.js'
 
 function getAPIData(url) {
   try {
