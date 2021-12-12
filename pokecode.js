@@ -159,7 +159,7 @@ function populateCardFront(pokemon) {
   pokeFront.className = 'cardFace front'
   const pokeImg = document.createElement('img')
   if (pokemon.id === 9001) {
-    pokeImg.src = '../images/pokeball.png'
+    pokeImg.src = '/Images/back2.png'
   } else {
     pokeImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png`
   }
