@@ -20,11 +20,18 @@ function loadPokemon(offset = 0, limit = 25) {
   })
 }
 
+const clearButton = document.querySelector('.clearPokemon')
+clearButton.addEventListener('click', () => {
+  removeChildren(pokeGrid)
+  pokeGrid.length = 0;
+})
+
+
 const pokeGrid = document.querySelector('.pokeGrid')
 const loadButton = document.querySelector('.loadPokemon')
 loadButton.addEventListener('click', () => {
   removeChildren(pokeGrid)
-  loadPokemon(100, 50)
+  loadPokemon(100, 50) 
   setTimeout(() => loadPokemon(100, 50), 3000)
 })
 
