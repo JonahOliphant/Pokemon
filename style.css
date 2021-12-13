@@ -117,38 +117,45 @@ button:hover{
 
 h4{
   text-align: center;
-  padding-top: 0.2rem;
+  padding-top: 0.3rem;
 }
 
 h5{
   text-indent: 3.9rem;
-  border-width: 1px;
+  border-width: 2px;
   border-style: double;
   margin-left: 1rem;
   margin-right: 1rem;
   text-align: center;
   margin-top: 0.1rem;
+  background: white;
 }
 
 ol{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  list-style:circle;
-  border-width: 4px;
-  border-style: double;
+  margin-bottom: 0.1rem;
+  list-style: none;
+  border-width: 5px;
+  border-style: outset;
   text-align: start;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding-left: 4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-left: 2.1rem;
+  border-color: #ffde00;
+  background: white;
+  font-size: 110%;
 }
 
 ul{
-  margin-top: 0.5rem;
-  list-style: none;
-  border-width: 4px;
-  border-style: solid;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  list-style: decimal;
+  border-width: 5px;
+  border-style: outset;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.3rem;
+  border-color: #868686;
+  background: white;
+  text-align: start;
+  font-size: 110%;
 }
 
 

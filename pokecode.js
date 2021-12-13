@@ -257,7 +257,7 @@ function populateCardBack(pokemon) {
   const pokeBack = document.createElement('div')
   pokeBack.className = 'cardFace back'
   const label = document.createElement('h4')
-  label.textContent = 'Abilities:'
+  label.textContent = 'Abilities'
   pokeBack.appendChild(label)
   const abilityList = document.createElement('ul')
   pokemon.abilities.forEach((abilityItem) => {
@@ -265,10 +265,11 @@ function populateCardBack(pokemon) {
     listItem.textContent = abilityItem.ability.name
     abilityList.appendChild(listItem)
   })
+
   const typeslist = document.createElement('ol')
   pokemon.types.forEach((pokeType) => {
     let typeItem = document.createElement('li')
-    typeItem.textContent = pokeType.type.name
+    typeItem.textContent = `Type: ${pokeType.type.name}`
     typeslist.appendChild(typeItem)
   })
   pokeBack.appendChild(abilityList)
