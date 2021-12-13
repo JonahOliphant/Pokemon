@@ -248,7 +248,7 @@ function getPokeTypeColor(pokeType) {
           color = '#D685AD'
           break
     default:
-      color = '#888888'
+      color = 'White'
   }
   return color
 }
