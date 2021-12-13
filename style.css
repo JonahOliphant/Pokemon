@@ -42,8 +42,8 @@ button {
   min-width: 140px;
   height: 75px;
   border-radius: 20px;
-  border-width: 0.3rem;
-  border-style: inset;
+  border-width: 0.5rem;
+  border-style: outset;
   border-color: #3b4cca;
   margin: 1rem;
   display: flex;
@@ -51,13 +51,19 @@ button {
   align-items: center;
   background-color: transparent;
   cursor: pointer;
-  transition: transform 0.5s ease-out;
+  transition: transform 0.1s ease-out;
 }
 
 button:hover{
   background-color: white;
-  transform: scale(1.2)
-  
+  transform: scale(1.15)
+}
+button:active{
+  border-radius: 20px;
+  border-width: 0.5rem;
+  border-style: inset;
+  border-color: #3b4cca;
+  transform: scale(0.9)
 }
 
 .bigtitle {
