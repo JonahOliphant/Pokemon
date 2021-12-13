@@ -48,10 +48,10 @@ button {
   min-width: 140px;
   height: 100px;
   border-radius: 20px;
-  border-width: 0.5rem;
+  border-width: 0.4rem;
   border-style: outset;
   border-color: #3b4cca;
-  margin: 0.6rem;
+  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
