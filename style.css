@@ -44,12 +44,12 @@ button {
   font-weight: 600;
   width: 15vw;
   min-width: 140px;
-  height: 75px;
+  height: 100px;
   border-radius: 20px;
   border-width: 0.5rem;
   border-style: outset;
   border-color: #3b4cca;
-  margin: 1rem;
+  margin: 0.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,6 +96,7 @@ button:active{
   align-items: center;
   background-color: transparent;
   cursor: pointer;
+  transition: transform 0.1s ease-out;
 }
 
 #typeSelector:hover{
