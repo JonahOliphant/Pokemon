@@ -195,35 +195,58 @@ function getPokeTypeColor(pokeType) {
   let color
   switch (pokeType) {
     case 'grass':
-      color = '#00FF00'
+      color = '#7AC74C'
       break
     case 'fire':
-      color = '#FF0000'
+      color = '#EE8130'
       break
     case 'water':
-      color = '#0000FF'
-      break
+      color = '#6390F0'
     case 'bug':
       color = '#7FFF00'
       break
     case 'normal':
-      color = '#F5F5DC'
+      color = '#A8A77A'
       break
     case 'flying':
-      color = '#00FFFF'
+      color = '#A98FF3'
       break
     case 'poison':
-      color = '#C300FF'
+      color = '#A33EA1'
       break
     case 'electric':
-      color = '#C8FF00'
+      color = '#F7D02C'
       break
     case 'psychic':
-      color = 'pink'
+      color = '#F95587'
       break
     case 'ground':
-      color = 'brown'
+      color = '#E2BF65'
       break
+      case 'ice':
+      color = '#96D9D6'
+      break
+      case 'fighting':
+        color = '#C22E28'
+        break
+          case 'rock':
+            color = '#B6A136'
+            break
+            case 'ghost':
+              color = '#735797'
+              break
+              case 'dark':
+                color = '#705746'
+                break
+                case 'dragon':
+                  color = '#6F35FC'
+                  break
+                  case 'steel':
+                    color = '#B7B7CE'
+                    break
+                    case 'fairy':
+          color = '#D685AD'
+          break
     default:
       color = '#888888'
   }
