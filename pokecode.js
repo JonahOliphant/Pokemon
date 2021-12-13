@@ -62,11 +62,6 @@ function getAllPokemonByType(type) {
   return allPokemon.filter((pokemon) => pokemon.types[0].type.name == type)
 }
 
-const sortButton = document.querySelector('.sortButton')
-sortButton.addEventListener('click', () => {
-  const allByType = getAllPokemonByType('water')
-  allByType.forEach((item) => populatePokeCard(item))
-})
 
 const typeSelector = document.querySelector('#typeSelector')
 typeSelector.addEventListener('change', (event) => {
