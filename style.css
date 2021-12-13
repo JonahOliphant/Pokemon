@@ -35,6 +35,8 @@ header{
     height: 120px;
     align-items: center;
     width: 100%;
+    margin-right: 10rem;
+  margin-left: 1rem;
 }
 
 body{
@@ -91,7 +93,7 @@ button:active{
   border-width: 0.3rem;
   border-style: inset;
   border-color: #ff0000;
-  margin: 1rem;
+  margin: 0.6rem;
   display: flex;
   justify-content: center;
   align-items: center;
