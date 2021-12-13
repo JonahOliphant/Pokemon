@@ -31,8 +31,7 @@ const pokeGrid = document.querySelector('.pokeGrid')
 const loadButton = document.querySelector('.loadPokemon')
 loadButton.addEventListener('click', () => {
   removeChildren(pokeGrid)
-  loadPokemon(100, 50) 
-  setTimeout(() => loadPokemon(100, 50), 3000)
+  loadPokemon(1, 80) 
 })
 
 const allPokemon = await getAllSimplePokemon()
