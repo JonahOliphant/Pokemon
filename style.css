@@ -35,6 +35,10 @@ header{
     width: 100%;
 }
 
+body{
+  min-width: 1000px;
+}
+
 button {
   font-size: 1.3rem;
   font-weight: 600;
