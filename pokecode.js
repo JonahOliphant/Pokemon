@@ -81,12 +81,12 @@ Second, add an event listener on click
 Third, use getAPIData with a URL like this https://pokeapi.co/api/v2/${promptedNameOrId}
 Fourth, populatePokeCard with the pokemon data retrieved */
 
-const moreButton = document.querySelector('.morePokemon')
-moreButton.addEventListener('click', () => {
-  let limit = prompt('How many more Pokemon should I load?')
-  let offset = prompt('At which Pokemon ID should I start loading?')
-  loadPokemon(offset, limit)
-})
+const searchButton = document.querySelector('.searchPokemon')
+searchButton.addEventListener('click', () => { 
+  let promptedNameOrId = prompt('Pokemon Name or ID?')
+  getAPIData(`https://pokeapi.co/api/v2/${promptedNameOrId}`,
+  
+)})
 
 const newButton = document.querySelector('.newPokemon')
 newButton.addEventListener('click', () => {
